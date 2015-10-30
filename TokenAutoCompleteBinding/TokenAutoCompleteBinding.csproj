@@ -55,6 +55,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
-    <EmbeddedJar Include="Jars\tokenautocomplete-2.0.2.jar" />
+    <EmbeddedJar Include="..\..\TokenAutoComplete\library\build\libs\tokenautocomplete-2.0.2.jar">
+      <Link>Jars\tokenautocomplete-2.0.2.jar</Link>
+    </EmbeddedJar>
   </ItemGroup>
 </Project>
