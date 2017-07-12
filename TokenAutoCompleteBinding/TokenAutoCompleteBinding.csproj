@@ -37,7 +37,7 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <Target Name="BuildTokenAutocompleteNative">
-    <Exec Command="make -C ../TokenAutoComplete" WorkingDirectory="$(ProjectDir)/.."/>
+    <Exec Command="make -C ../TokenAutoComplete" WorkingDirectory="$(ProjectDir)/.." />
   </Target>
   <ItemGroup>
     <Reference Include="System" />
